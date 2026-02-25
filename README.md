@@ -99,10 +99,10 @@ These are documented in the submitted report.
 
 ## 👨‍🏫 NIS_S13_05
 
-**Ivan Antonio T. Alvarez | **
-**Joshua Benedict B. Co | **
-**Andrei Zarmin D. De Jesus | **
-**Reyvin Matthew T. Tan**
+* **Ivan Antonio T. Alvarez**
+* **Joshua Benedict B. Co**
+* **Andrei Zarmin D. De Jesus**
+* **Reyvin Matthew T. Tan**
 
 ---
 ✅ **Flowchart diagrams (PNG / PDF)**
