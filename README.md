@@ -1,11 +1,7 @@
 ---
 
-**NSSECU3 – S13 | Mini Project 2**
-**Malware Scanner: Mount, Scan, and List**
-
----
-
 ## 📌 Project Overview
+## NSSECU3 – S13 | Mini Project 2
 
 This project focuses on **Malware Forensics** through **file system analysis and file type detection** using **magic number signatures**. The main objective is to detect the **true file types** of unknown and extensionless files from a mounted disk image, simulating real-world malware investigation scenarios.
 
