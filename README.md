@@ -1,7 +1,6 @@
 ---
 
-## 📌 Project Overview
-**NSSECU3 – S13 | Mini Project 2**
+## 📌 Project Overview | NSSECU3 – S13 | Mini Project 2
 
 This project focuses on **Malware Forensics** through **file system analysis and file type detection** using **magic number signatures**. The main objective is to detect the **true file types** of unknown and extensionless files from a mounted disk image, simulating real-world malware investigation scenarios.
 
@@ -100,9 +99,9 @@ These are documented in the submitted report.
 
 ## 👨‍🏫 NIS_S13_05
 
-**Ivan Antonio T. Alvarez**
-**Joshua Benedict B. Co**
-**Andrei Zarmin D. De Jesus**
+**Ivan Antonio T. Alvarez | **
+**Joshua Benedict B. Co | **
+**Andrei Zarmin D. De Jesus | **
 **Reyvin Matthew T. Tan**
 
 ---
