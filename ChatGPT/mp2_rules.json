@@ -1,0 +1,267 @@
+{
+  "rules": [
+    {
+      "extension": "PDF",
+      "magic": [
+        "25 50 44 46 2D 31 2E 33",
+        "25 50 44 46 2D 31 2E 34",
+        "25 50 44 46 2D 31 2E 35",
+        "25 50 44 46 2D 31 2E 36",
+        "25 50 44 46 2D 31 2E 37"
+      ],
+      "_comment": "Supports pdf 1.3-17",
+      "size_min": 185443,
+      "size_max": 7474390
+    },
+    {
+      "extension": "PNG",
+      "magic": [
+        "89 50 4E 47 0D 0A 1A 0A",
+        "FF D8 FF 00 00 00 0D 49 48 44 52",
+        "4D 5A 00 00 00 0D 49 48 44 52",
+        "00 00 00 0D 49 48 44 52"
+      ],
+      "_comment": "Variants 2-4 are modified",
+      "size_min": 170993,
+      "size_max": 1809714
+    },
+    {
+      "extension": "JPEG",
+      "magic": ["FF D8 FF E0", "FF D8 FF E1", "FF D9 FF E0"],
+      "_comment": "Supports JPEG variants",
+      "size_min": 127189,
+      "size_max": 180248
+    },
+    {
+      "extension": "ZIP",
+      "magic": ["50 4B 03 04", "43 44 30 30 14"],
+      "_comment": "The last variant is a modified zip",
+      "size_min": 9567,
+      "size_max": 12996644
+    },
+    {
+      "extension": "MP3",
+      "magic": ["49 44 33 00", "49 44 33 31"],
+      "_comment": "Supports MP3 variants",
+      "size_min": 686849,
+      "size_max": 1962050
+    },
+    {
+      "extension": "EXE",
+      "magic": [
+        "4D 5A 90 00",
+        "4D 5A 00 01",
+        "4D 5A 93 00",
+        "4D 5A 50 00",
+        "4D 5A 8B 00",
+        "FF FB 90 00 03"
+      ],
+      "_comment": "The last variant is a modified exe",
+      "size_min": 2560,
+      "size_max": 2071847
+    },
+    {
+      "extension": "RIFF",
+      "magic": ["52 49 46 46"],
+      "_comment": "RIFF detector",
+      "size_min": 196042,
+      "size_max": 556987
+    },
+    {
+      "extension": "PS_UTF8",
+      "magic": ["EF BB BF 3C"],
+      "_comment": "PowerShell UTF-8 detector",
+      "size_min": 555,
+      "size_max": 1804
+    },
+    {
+      "extension": "BAT",
+      "magic": ["40 65 63 68 6F 20 6F 66"],
+      "_comment": "Batch file detector",
+      "size_min": 41,
+      "size_max": 273
+    },
+    {
+      "extension": "ISO",
+      "magic": ["43 44 30 30 31"],
+      "_comment": "ISO file detector",
+      "size_min": 5125758,
+      "size_max": 5125758
+    },
+    {
+      "extension": "PS_UTF8",
+      "magic": ["EF BB BF 3C 23"],
+      "_comment": "PowerShell UTF-8 BOM + <# comment",
+      "size_min": 555,
+      "size_max": 1804
+    },
+    {
+      "extension": "TXT",
+      "magic": ["436F7079726967687420286329205B79"],
+      "_comment": "UPL license",
+      "size_min": 1855,
+      "size_max": 1855
+    },
+    {
+      "extension": "TXT",
+      "magic": ["41007400740072006900620075007400"],
+      "_comment": "Attribution 4.0 International (UTF-16LE)",
+      "size_min": 38102,
+      "size_max": 38102
+    },
+    {
+      "extension": "TXT",
+      "magic": ["20202020202020202020202020202020"],
+      "_comment": "GNU AFFERO GENERAL PUBLIC LICENSE",
+      "size_min": 35182,
+      "size_max": 35182
+    },
+    {
+      "extension": "TXT",
+      "magic": ["20202020202020202020202020202020"],
+      "_comment": "GNU GENERAL PUBLIC LICENSE",
+      "size_min": 35821,
+      "size_max": 35821
+    },
+    {
+      "extension": "TXT",
+      "magic": ["20002000200020002000200020002000"],
+      "_comment": "Apache License (UTF-16LE)",
+      "size_min": 23112,
+      "size_max": 23112
+    },
+    {
+      "extension": "TXT",
+      "magic": ["5B4C6F63616C697A656446696C654E61"],
+      "_comment": "Localized file names list",
+      "size_min": 2138,
+      "size_max": 2138
+    },
+    {
+      "extension": "TXT",
+      "magic": ["495343204C6963656E73650D0A0D0A43"],
+      "_comment": "ISC License",
+      "size_min": 756,
+      "size_max": 756
+    },
+    {
+      "extension": "TXT",
+      "magic": ["425344205A65726F20436C6175736520"],
+      "_comment": "BSD Zero Clause License",
+      "size_min": 677,
+      "size_max": 677
+    },
+    {
+      "extension": "TXT",
+      "magic": ["20 20 20 20 20 20 20 20 20 20 20 20 44 4F 20 57 48 41 54"],
+      "_comment": "WTFPL text",
+      "size_min": 494,
+      "size_max": 494
+    },
+    {
+      "extension": "TXT",
+      "magic": ["0A22312E20496E7374616C6C20616E64"],
+      "_comment": "Installation script",
+      "size_min": 352,
+      "size_max": 352
+    },
+    {
+      "extension": "TXT",
+      "magic": ["450063006C0069007000730065002000"],
+      "_comment": "Eclipse Public License (UTF-16LE)",
+      "size_min": 28944,
+      "size_max": 28944
+    },
+    {
+      "extension": "TXT",
+      "magic": ["4D6963726F736F6674205075626C6963"],
+      "_comment": "Microsoft Public License",
+      "size_min": 2828,
+      "size_max": 2828
+    },
+    {
+      "extension": "TXT",
+      "magic": ["426F6F737420536F667477617265204C"],
+      "_comment": "Boost Software License",
+      "size_min": 1359,
+      "size_max": 1359
+    },
+    {
+      "extension": "TXT",
+      "magic": ["45006400750063006100740069006F00"],
+      "_comment": "Educational Community License (UTF-16LE)",
+      "size_min": 22534,
+      "size_max": 22534
+    },
+    {
+      "extension": "TXT",
+      "magic": ["41636164656D69632046726565204C69"],
+      "_comment": "Academic Free License",
+      "size_min": 10483,
+      "size_max": 10483
+    },
+    {
+      "extension": "TXT",
+      "magic": ["54686973206973206672656520616E64"],
+      "_comment": "Unlicense",
+      "size_min": 1233,
+      "size_max": 1233
+    },
+    {
+      "extension": "TXT",
+      "magic": ["20202020202020202020202020202020"],
+      "_comment": "GNU LESSER GENERAL PUBLIC LICENSE",
+      "size_min": 7815,
+      "size_max": 7815
+    },
+    {
+      "extension": "TXT",
+      "magic": ["4D6F7A696C6C61205075626C6963204C"],
+      "_comment": "Mozilla Public License",
+      "size_min": 17097,
+      "size_max": 17097
+    },
+    {
+      "extension": "TXT",
+      "magic": ["090920202020202020546865204172"],
+      "_comment": "Artistic License 2.0",
+      "size_min": 9093,
+      "size_max": 9093
+    },
+    {
+      "extension": "TXT",
+      "magic": ["4D004900540020004C00690063006500"],
+      "_comment": "MIT License (UTF-16LE)",
+      "size_min": 2176,
+      "size_max": 2176
+    },
+    {
+      "extension": "TXT",
+      "magic": ["4F70656E20536F667477617265204C69"],
+      "_comment": "Open Software License",
+      "size_min": 10470,
+      "size_max": 10470
+    },
+    {
+      "extension": "EXE",
+      "magic": ["90000300000004000000FFFF0000B800"],
+      "_comment": "Executable file",
+      "size_min": 319563,
+      "size_max": 319563
+    },
+    {
+      "extension": "EXE",
+      "magic": ["42 00 02 00 00 00 20 00"],
+      "_comment": "Executable file",
+      "size_min": 1204734,
+      "size_max": 1204734
+    },
+    {
+      "extension": "TXT",
+      "magic": ["20202020202020202020202020202020"],
+      "_comment": "European Union Public Licence",
+      "size_min": 14118,
+      "size_max": 14118
+    }
+  ]
+}
