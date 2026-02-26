@@ -105,8 +105,3 @@ These are documented in the submitted report.
 * **Reyvin Matthew T. Tan**
 
 ---
-✅ **Flowchart diagrams (PNG / PDF)**
-✅ **Formal documentation format**
-✅ **Cover page + title formatting**
-
-Just say 😄
